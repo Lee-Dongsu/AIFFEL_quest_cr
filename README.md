@@ -100,5 +100,4 @@ AIFFEL_quest_cr
 │   ├── Sub Quest C 07
 │   │   ├── .ipynb
 │   │   └── README.md
-│
 ```
