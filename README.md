@@ -3,17 +3,17 @@ AIFFEL_quest_cr
 │   ├── .ipynb
 │   └── README.md
 │
-└── Python
+├── Python
 │   ├── QuestC
 │   │   ├── .ipynb
 │   │   └── README.md
 │
-└── Flutter
+├── Flutter
 │   ├── QuestC
 │   │   ├── .ipynb
 │   │   └── README.md
 │
 └── Exploration
-│   ├── QuestC
-│       ├── .ipynb
-│       └── README.md
+    ├── QuestC
+        ├── .ipynb
+        └── README.md
