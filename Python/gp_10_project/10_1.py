@@ -33,4 +33,4 @@ class Square:
         result = '사다리꼴의 넓이는 :' + str(area)        
         return result
 
-a = Square()  # 객체 생성 & 2, 3을 각각 입력해 봅시다.
+a = Square()
