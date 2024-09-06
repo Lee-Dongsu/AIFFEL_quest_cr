@@ -1,0 +1,92 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOeoPv/+0X4Y4pwdEc2VkQs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Lee-Dongsu/AIFFEL_quest_cr/blob/master/Python/Data_analyst/06project\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C88GNpy6Cutu",
+        "outputId": "a92124e7-3710-4d2c-f537-dc19585a95f6"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "(0.9722222222222222, 1.0, 0.9649122807017544)"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ],
+      "source": [
+        "from sklearn.datasets import load_digits, load_wine, load_breast_cancer\n",
+        "from sklearn.model_selection import train_test_split\n",
+        "from sklearn.ensemble import RandomForestClassifier\n",
+        "from sklearn.metrics import accuracy_score\n",
+        "\n",
+        "# 1. load_digits: 손글씨 분류\n",
+        "digits = load_digits()  # 손글씨 데이터셋 불러오기 (0~9까지 숫자 이미지와 해당 숫자 레이블이 있음)\n",
+        "X_digits, y_digits = digits.data, digits.target  # 손글씨 이미지와 해당 숫자 레이블을 나누기\n",
+        "X_train_digits, X_test_digits, y_train_digits, y_test_digits = train_test_split(X_digits, y_digits, test_size=0.2, random_state=42)\n",
+        "# 데이터를 학습용(train)과 테스트용(test)으로 8:2 비율로 나누기 (랜덤하게 나눔)\n",
+        "clf_digits = RandomForestClassifier(random_state=42)  # 랜덤 포레스트라는 분류기를 사용 (숲처럼 여러 트리로 분류하는 방법)\n",
+        "clf_digits.fit(X_train_digits, y_train_digits)  # 학습용 데이터를 이용해서 분류기를 학습시키기 (배우기)\n",
+        "y_pred_digits = clf_digits.predict(X_test_digits)  # 학습된 모델을 사용해서 테스트용 데이터의 숫자를 예측하기\n",
+        "accuracy_digits = accuracy_score(y_test_digits, y_pred_digits)  # 예측한 결과와 실제 값 비교해서 정확도 계산\n",
+        "\n",
+        "# 2. load_wine: 와인 분류\n",
+        "wine = load_wine()  # 와인 데이터셋 불러오기 (와인의 특징과 와인의 종류(3가지))\n",
+        "X_wine, y_wine = wine.data, wine.target  # 와인의 특징 데이터와 그에 해당하는 와인 종류 레이블을 나누기\n",
+        "X_train_wine, X_test_wine, y_train_wine, y_test_wine = train_test_split(X_wine, y_wine, test_size=0.2, random_state=42)\n",
+        "# 와인 데이터를 학습용(train)과 테스트용(test)으로 8:2 비율로 나누기\n",
+        "clf_wine = RandomForestClassifier(random_state=42)  # 와인 분류를 위한 랜덤 포레스트 분류기 생성\n",
+        "clf_wine.fit(X_train_wine, y_train_wine)  # 학습용 데이터를 사용해 분류기 학습시키기\n",
+        "y_pred_wine = clf_wine.predict(X_test_wine)  # 학습된 모델로 테스트 데이터의 와인 종류를 예측하기\n",
+        "accuracy_wine = accuracy_score(y_test_wine, y_pred_wine)  # 예측한 결과와 실제 값을 비교해서 정확도 계산\n",
+        "\n",
+        "# 3. load_breast_cancer: 유방암 진단\n",
+        "breast_cancer = load_breast_cancer()  # 유방암 데이터셋 불러오기 (특징 데이터와 유방암 여부 레이블 포함)\n",
+        "X_breast_cancer, y_breast_cancer = breast_cancer.data, breast_cancer.target  # 유방암 관련 데이터와 진단 결과(암 여부)를 나누기\n",
+        "X_train_breast_cancer, X_test_breast_cancer, y_train_breast_cancer, y_test_breast_cancer = train_test_split(X_breast_cancer, y_breast_cancer, test_size=0.2, random_state=42)\n",
+        "# 유방암 데이터를 학습용(train)과 테스트용(test)으로 8:2 비율로 나누기\n",
+        "clf_breast_cancer = RandomForestClassifier(random_state=42)  # 유방암 여부를 분류할 랜덤 포레스트 분류기 생성\n",
+        "clf_breast_cancer.fit(X_train_breast_cancer, y_train_breast_cancer)  # 학습용 데이터를 사용해 분류기 학습시키기\n",
+        "y_pred_breast_cancer = clf_breast_cancer.predict(X_test_breast_cancer)  # 학습된 모델로 테스트 데이터의 유방암 여부 예측하기\n",
+        "accuracy_breast_cancer = accuracy_score(y_test_breast_cancer, y_pred_breast_cancer)  # 예측한 결과와 실제 값을 비교해서 정확도 계산\n",
+        "\n",
+        "# 최종적으로 각 분류기의 정확도 출력\n",
+        "accuracy_digits, accuracy_wine, accuracy_breast_cancer  # 손글씨, 와인, 유방암 분류의 정확도 출력"
+      ]
+    }
+  ]
+}
