@@ -30,6 +30,7 @@
 ## 프로토타이핑 (사용 툴 : Marvelapp)
 
 ![image](https://github.com/user-attachments/assets/312aa26d-817a-4b27-8d84-923c76aab76a)
+![GIF](https://github.com/user-attachments/assets/d16c902d-d356-4bcf-98a7-baf8046754c2)
 
 
 
@@ -43,7 +44,7 @@
 
 
 ## 구현영상 
-![GIF](https://github.com/user-attachments/assets/d16c902d-d356-4bcf-98a7-baf8046754c2)
+[Screen_recording_20241023_142015.webm](https://github.com/user-attachments/assets/bcad13a8-515d-4efd-b642-12bfbbe0909f)
 
 
 
