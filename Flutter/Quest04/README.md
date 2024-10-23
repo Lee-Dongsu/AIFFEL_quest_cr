@@ -44,7 +44,7 @@
 
 
 ## 구현영상 
-[Screen_recording_20241023_142015.webm](https://github.com/user-attachments/assets/bcad13a8-515d-4efd-b642-12bfbbe0909f)
+[Screen_recording_20241023_144754.webm](https://github.com/user-attachments/assets/03acbdc0-874d-483f-a4ab-e34c6b62c9b2)
 
 
 
