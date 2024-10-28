@@ -1,0 +1,15 @@
+import os
+import torch
+from torchvision import models
+
+# 저장할 디렉토리 경로
+save_dir = "/aiffel/fastAPI/"
+os.makedirs(save_dir, exist_ok=True)  # 디렉토리가 없으면 생성
+
+# 모델 로드 및 가중치 저장
+model = models.vgg16(pretrained=True)
+model.eval()
+
+# 가중치 저장
+torch.save(model.state_dict(), os.path.join(save_dir, "vgg16_weights.pth"))
+print("모델 가중치가 저장되었습니다.")
