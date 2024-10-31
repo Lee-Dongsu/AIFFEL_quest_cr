@@ -343,7 +343,7 @@ class _InquiryScreenState extends State<InquiryScreen> {
     );
 
     if (response.statusCode == 200) {
-      final jsonResponse = json.decode(response.body);
+      final jsonResponse = json.decode(utf8.decode(response.bodyBytes));
       return jsonResponse['choices'][0]['message']['content']; // 응답 내용 반환
     } else {
       throw Exception('API 요청 실패: ${response.statusCode}');
