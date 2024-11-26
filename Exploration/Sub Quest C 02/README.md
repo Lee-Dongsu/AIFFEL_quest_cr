@@ -30,7 +30,8 @@
     - [x]  어려웠던 점
 
 - [ ]  **5.  앱으로 구현하였나요?**
-    - [image](https://github.com/user-attachments/assets/92cabe00-f65b-4701-a5ec-faf55c08ca6a), ![image](https://github.com/user-attachments/assets/5453b4a6-3ad1-41cf-ac0c-9e9b74651903)
+    - ![image](https://github.com/user-attachments/assets/92cabe00-f65b-4701-a5ec-faf55c08ca6a)
+    - ![image](https://github.com/user-attachments/assets/5453b4a6-3ad1-41cf-ac0c-9e9b74651903)
     - 구현되지는 않지만, 노력한 흔적이 보입니다.
     - 한글에서 적용이 되는지 확인하기 위해서는 코드 수정이 필요해 보입니다. 또한 전처리과정을 추가하여야 합니다.
 
