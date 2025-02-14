@@ -1,4 +1,4 @@
-<div align="center">
+![image](https://github.com/user-attachments/assets/08f43574-14d8-4c9e-8e58-3c2fdee6523f)<div align="center">
 
   # 🕺 모두의연구소 - 아이펠 코어 9기 🕺
   
@@ -164,8 +164,8 @@
                 <br><b>DATAthon</b>
             </td>
             <td align="center">
-                <a href="https://github.com/Lee-Dongsu/AIFFEL_quest_cr/tree/master/MainQuest/Quest06">
-                    <img src="https://github.com/user-attachments/assets/1ca86ddc-d194-463b-a35e-2b502517770a" alt="jellydeep" width="270">
+                <a href="https://github.com/Lee-Dongsu/AIFFEL_quest_cr/tree/master/MainQuest/Main%20QUEST%2006">
+                    <img src="https://github.com/user-attachments/assets/e80e3e06-72d9-45b8-8d9f-db108b032f4c" alt="jellydeep" width="270">
                 </a>
                 <br><b>DLthon</b>
             </td>
