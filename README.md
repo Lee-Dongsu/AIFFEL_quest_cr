@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/08f43574-14d8-4c9e-8e58-3c2fdee6523f)<div align="center">
-
   # 🕺 모두의연구소 - 아이펠 코어 9기 🕺
   
 </div>
@@ -17,7 +15,7 @@
 
 <br><br>
 
-<img src="https://github.com/user-attachments/asseMain QUEST 01ts/cebbe94d-0ee9-4deb-aa5c-623033970849" width="30%">
+<img src="https://private-user-images.githubusercontent.com/158826417/410868688-cebbe94d-0ee9-4deb-aa5c-623033970849.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk1MTY5MzMsIm5iZiI6MTczOTUxNjYzMywicGF0aCI6Ii8xNTg4MjY0MTcvNDEwODY4Njg4LWNlYmJlOTRkLTBlZTktNGRlYi1hYTVjLTYyMzAzMzk3MDg0OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxNFQwNzAzNTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wM2JiMzcyYzZmMmE2MzFjNjBiOWMxMmM5ODc0NDI1ZDI0MmEyMDE4ZDhlYjVmZGIzYzllYWQ4MDUzMGQ2MDcwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.N90ILrFsenmcyOU0EVn4kD9v-ipyvmq71bpoRsmtnLQ" width="30%">
 
 <br><br>
 
@@ -165,7 +163,7 @@
             </td>
             <td align="center">
                 <a href="https://github.com/Lee-Dongsu/AIFFEL_quest_cr/tree/master/MainQuest/Main%20QUEST%2006">
-                    <img src="https://github.com/user-attachments/assets/e80e3e06-72d9-45b8-8d9f-db108b032f4c" alt="jellydeep" width="270">
+                    <img src="https://github.com/user-attachments/assets/e80e3e06-72d9-45b8-8d9f-db108b032f4c" alt="jellydeep" width="200">
                 </a>
                 <br><b>DLthon</b>
             </td>
