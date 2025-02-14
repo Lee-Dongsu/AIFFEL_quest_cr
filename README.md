@@ -203,12 +203,3 @@
 **[모두의연구소](https://modulabs.co.kr/)와 아이펠 코어 9기의 모든 분들께 감사드립니다.**  
 함께한 시간들이 소중한 추억이 되길 바라며, 앞으로도 계속 성장해 나가겠습니다! 🚀✨  
 
-<br>
-<br>
-
-<hr>  
-<p align="center">
-  Made with 💖 by chanxxw
-</p>
-
-
