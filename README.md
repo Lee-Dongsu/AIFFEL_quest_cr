@@ -155,7 +155,7 @@
     <table>
         <tr>
             <td align="center">
-                <a href="https://github.com/chanxxw/AIFFEL_quest_cr/tree/master/MainQuest/Main%20QUEST%2004">
+                <a href="https://github.com/Lee-Dongsu/AIFFEL_quest_cr/tree/master/MainQuest/Main%20QUEST%2004">
                     <img src="https://github.com/user-attachments/assets/1b94553f-283d-45e3-8353-5c5e661845b2" alt="taekwondo_icon" width="200">
                 </a>
                 <br><b>DATAthon</b>
